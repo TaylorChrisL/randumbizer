@@ -1,9 +1,5 @@
 # Randumbizer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/randumbizer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
@@ -16,7 +12,29 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Random coin flip
+
+```
+Randumbizer::Coin.flip
+```
+
+Random card draw
+
+```
+Randumbizer::PlayingCard.draw
+```
+
+Random dice roll
+```
+Randumbizer::Dice.roll(number_of_dice_to_roll)
+```
+
+Random Lotto Numbers
+```
+Randumbizer::Lotto.draw(number_of_numbers, maxiumum_to_roll_to)
+```
+
+$
 
 ## Development
 
